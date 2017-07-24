@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>后台管理系统</title>
+    <link rel="stylesheet" href="lib/bootstrap-3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="lib/bootstrap-datetimepicker-4.17.47/css/bootstrap-datetimepicker.min.css" />
+    <link rel="stylesheet" href="lib/pace/dataurl.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="lib/html5shiv.min.js"></script>
+      <script type="text/javascript" src="lib/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!--顶部导航条-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle show pull-left" data-target="sidebar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">后台管理系统</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <i class="fa fa-user fa-fw"></i>&nbsp;用户&nbsp;<span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <!--<li class="divider"></li>-->
+                <li>
+                  <a id="logoutBtn" href="javascript:void(0);"><i class="fa fa-sign-out fa-fw"></i>&nbsp;退出</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid all">
+      <!--左侧栏-->
+      <div class="sidebar">
+        <ul class="nav nav-main">
+          <li class="has-sub">
+            <a href="javascript:void(0);"><span class="glyphicon glyphicon-list" aria-hidden="true"></span>&nbsp;&nbsp;<span>系统设置</span><i class="fa fa-caret-right fa-fw pull-right"></i></a>
+            <ul class="sub-menu">
+              <li><a href="#account-manage"><i class="fa fa-circle-o fa-fw"></i>账号管理</a></li>
+            </ul>
+          </li>
+          <li class="has-sub">
+            <a href="javascript:void(0);"><span class="glyphicon glyphicon-list" aria-hidden="true"></span>&nbsp;&nbsp;<span>前台业务</span><i class="fa fa-caret-right fa-fw pull-right"></i></a>
+            <ul class="sub-menu">
+              <li><a href="#nav1"><i class="fa fa-circle-o fa-fw"></i>导航测试</a></li>
+              <li class="has-sub">
+                <a href="javascript:void(0);"><span class="glyphicon glyphicon-list" aria-hidden="true"></span>&nbsp;&nbsp;<span>二级菜单</span><i class="fa fa-caret-right fa-fw pull-right"></i></a>
+                <ul class="sub-menu">
+                  <li><a href="#nav2"><i class="fa fa-circle-o fa-fw"></i>导航测试</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!--主内容区-->
+      <div class="maincontent">
+        <ul class="breadcrumb"></ul>
+        <div class="col-sm-12 subpage"></div>
+      </div>
+    </div>
+
+    <!--滚动到顶部-->
+    <a href="#top" id="goTop"><i class="fa fa-angle-up fa-3x"></i></a>
+
+    <script type="text/javascript" src="lib/jquery-1.12.4.min.js" ></script>
+    <script type="text/javascript" src="lib/bootstrap-3.3.7/js/bootstrap.min.js" ></script>
+    <script type="text/javascript" src="lib/echarts-3.5.4/echarts.min.js"></script>
+    <script type="text/javascript" src="lib/crypto-js.js" ></script>
+    <script type="text/javascript" src="lib/moment.min.js" ></script>
+    <script type="text/javascript" src="lib/template-3.1.0.js" ></script>
+    <!--<script type="text/javascript" src="lib/layer-3.0.3/layer.js" ></script>-->
+    <script type="text/javascript" src="lib/pace/pace.min.js" ></script>
+    <script type="text/javascript" src="lib/scrolltopcontrol.js" ></script>
+    <script type="text/javascript" src="lib/bootstrap-datetimepicker-4.17.47/js/bootstrap-datetimepicker.min.js" ></script>
+    <script type="text/javascript" src="js/env.js" ></script>
+    <script type="text/javascript" src="js/common.min.js" ></script>
+    <script type="text/javascript" src="lib/laypage-1.3.0/laypage.js"></script>
+
+    <script type="text/javascript" src="js/main.js" ></script>
+  </body>
+</html>

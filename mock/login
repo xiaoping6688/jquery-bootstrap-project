@@ -1,0 +1,10 @@
+{
+  "rlt": "true",
+  "msg": "ok",
+  "data": {
+    "userId": "1",
+    "userName": "admin",
+    "avatar": "",
+    "token": "token"
+  }
+}
