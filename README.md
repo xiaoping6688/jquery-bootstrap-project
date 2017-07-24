@@ -1,5 +1,5 @@
-# gulp-project
->基于gulp自动构建项目配置
+# jquery-bootstrap-project
+>基于gulp构建的 jQuery+Bootstrap PC端WEB项目
 
 ### 实现功能
 - 环境输出（根据当前环境生产配置）
