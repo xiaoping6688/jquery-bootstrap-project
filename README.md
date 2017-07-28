@@ -23,3 +23,5 @@ npm run build:test/simu/prod (测试／仿真／生产)
 # deploy the dist files to remote host
 npm run deploy
 ```
+
+![image](https://raw.githubusercontent.com/xiaoping6688/jquery-bootstrap-project/master/src/img/screenshot.png)
